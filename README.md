@@ -1,6 +1,18 @@
 # RLCS-EU-Score-Predictor
 Not so good neural network trained to predict series scores of Rocket League Championship Series (RLCS) season 9 EU teams. 
 
+## Sample output
+
+When inputting the matches to be played in week 2 of RLCS S9, the network outputs the following:
+```
+DIG vs SNG: Predicted score: 3-1
+ASM vs END: Predicted score: 3-1
+MOUZ vs SNG: Predicted score: 2-3
+RV vs TSM: Predicted score: 3-1
+REC vs VEL: Predicted score: 2-3
+RV vs FCB: Predicted score: 0-3
+```
+
 ## How to run
 
 ### Requirements
