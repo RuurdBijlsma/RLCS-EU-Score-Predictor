@@ -3,7 +3,7 @@ Not so good neural network trained to predict series scores of Rocket League Cha
 
 ## Sample output
 
-When inputting the matches to be played in week 2 of RLCS S9, the network outputs the following:
+When inputting the matches to be played in week 3 of RLCS S9, the network outputs the following:
 ```
 DIG vs SNG: Predicted score: 3-1
 ASM vs END: Predicted score: 3-1
