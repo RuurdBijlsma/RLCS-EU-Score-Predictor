@@ -22,4 +22,4 @@ for [team1, team2] in matches:
     score_index = predicted.item()
     score = output_labels[score_index]
     print('{0} vs {1}: Predicted score: {2}'.format(team1, team2, score) +
-          (', confidence: {0}'.format(conf.item()) if show_confidence else ''))
+          (', confidence: {0}%'.format(conf.item() * 100) if show_confidence else ''))
