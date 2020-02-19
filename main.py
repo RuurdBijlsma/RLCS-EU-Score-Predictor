@@ -17,7 +17,7 @@ net = model()
 net.to(device)
 optimizer = optim.Adam(net.parameters(), lr=0.00002)
 criterion = nn.CrossEntropyLoss()
-epochs = 1000
+epochs = 1500
 
 for epoch in range(epochs):
     correct = 0.
